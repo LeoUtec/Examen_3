@@ -1,1 +1,8 @@
-https://storage.googleapis.com/cartographer-public-data/bags/turtlebot/cartographer_turtlebot_demo.bag
+TAMBIEN:
+
+Mediante los comandos descargados en el drive:
+https://drive.google.com/file/d/1BPi18IoBq-khVUEG5ZaGzyd0OidxyljG/view?usp=sharing
+
+Correrá la simualción porque descarga el código directamente:
+# Launch the 2D LIDAR demo.
+$ roslaunch cartographer_turtlebot demo_lidar_2d.launch bag_filename:=${HOME}/Downloads/cartographer_turtlebot_demo.bag
